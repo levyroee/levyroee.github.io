@@ -1,5 +1,5 @@
 ---
-target: 2022populism
+target: 2022_populism
 order: 2
 authors: <b>Schpero WL</b>, Ndumele CD
 title: Decomposing the Global Rise of Populist Parties
