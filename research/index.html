@@ -14,12 +14,14 @@ publications: active
   
   {% if reference.link %}
     <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>  
-		  {% if reference.authors %} 
-		     </br>( with {{ reference.authors }})
-          {% endif %}
-    {% else %}
-    {{ reference.title }}.
+  {% else %}
+      {{ reference.title }}.
   {% endif %}
+	</br>
+  {% if reference.authors %} 
+	 ( with {{ reference.authors }}) </br>
+  {% endif %}
+    
   {% if reference.journal %}
     <i>{{ reference.journal }}</i>.
   {% endif %}
