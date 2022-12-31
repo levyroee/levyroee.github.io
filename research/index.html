@@ -6,6 +6,10 @@ publications: active
 
 <div class="info">
 
+{% for i in site %} 
+i
+{% endfor %}
+
 <p><h3><b>Publications</b></h3></p>
 
 {% assign sorted = site.publications | sort: 'order' | reverse %}
@@ -24,11 +28,12 @@ publications: active
     
   {% if reference.journal %}
     <i>{{ reference.journal }}</i>.
+	{% if reference.meta %}
+		{{ reference.meta }}.
+	{% endif %}
+	<br>
   {% endif %}
-  {% if reference.meta %}
-    {{ reference.meta }}.
-  {% endif %}
-  <br>
+  
   {% if reference.abstract == "y" %}
     <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}a" role="button" aria-expanded="false" aria-controls="{{ reference.target }}a"><span class="if-collapsed">Abstract [+]</span><span class="if-not-collapsed">Abstract [-]</span></a>
   {% endif %}
