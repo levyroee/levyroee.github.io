@@ -1,6 +1,6 @@
 ---
 target: 2022_populism
-order: 2
+order: 1
 authors: <b>Schpero WL</b>, Ndumele CD
 title: Decomposing the Global Rise of Populist Parties
 link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4255937

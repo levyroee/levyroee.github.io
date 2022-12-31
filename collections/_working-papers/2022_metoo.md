@@ -1,6 +1,6 @@
 ---
 target: 2022_metoo
-order: 1
+order: 2
 authors: <b>Schpero WL</b>, Ndumele CD
 title: The Effects of Social Movements: Evidence from #MeToo
 link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3496903
