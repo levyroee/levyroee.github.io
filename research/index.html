@@ -11,7 +11,7 @@ publications: active
 {% assign sorted = site.publications | sort: 'order' | reverse %}
 {% for reference in sorted %}
 <p>
-  {{ reference.authors }}.
+  
   {% if reference.link %}
     <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>.
     {% else %}
