@@ -13,7 +13,10 @@ publications: active
 <p>
   
   {% if reference.link %}
-    <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>.
+    <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>  
+		  {% if reference.author %} 
+		     (with {{reference.author}})
+          {% endif %}
     {% else %}
     {{ reference.title }}.
   {% endif %}
@@ -71,7 +74,7 @@ publications: active
 {% assign sorted = site.working-papers | sort: 'order' | reverse %}
 {% for reference in sorted %}
 <p>
-  {{ reference.authors }}.
+  
   {% if reference.link %}
     <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>.
     {% else %}
