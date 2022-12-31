@@ -28,6 +28,7 @@ publications: active
   {% if reference.meta %}
     {{ reference.meta }}.
   {% endif %}
+  <br>
   {% if reference.abstract == "y" %}
     <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}a" role="button" aria-expanded="false" aria-controls="{{ reference.target }}a"><span class="if-collapsed">Abstract [+]</span><span class="if-not-collapsed">Abstract [-]</span></a>
   {% endif %}
@@ -78,16 +79,22 @@ publications: active
 <p>
   
   {% if reference.link %}
-    <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>.
-    {% else %}
-    {{ reference.title }}.
+    <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>  
+  {% else %}
+      {{ reference.title }}.
   {% endif %}
+	</br>
+  {% if reference.authors %} 
+	 ( with {{ reference.authors }}) </br>
+  {% endif %}
+    
   {% if reference.journal %}
     <i>{{ reference.journal }}</i>.
   {% endif %}
   {% if reference.meta %}
     {{ reference.meta }}.
   {% endif %}
+  <br>
   {% if reference.abstract == "y" %}
     <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}a" role="button" aria-expanded="false" aria-controls="{{ reference.target }}a"><span class="if-collapsed">Abstract [+]</span><span class="if-not-collapsed">Abstract [-]</span></a>
   {% endif %}
@@ -130,6 +137,7 @@ publications: active
   </div>
 {% endif %}
 {% endfor %}
+
 
 <p><h3><b>Work in prgress</b></h3></p>
 
