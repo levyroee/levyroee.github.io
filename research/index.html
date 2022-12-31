@@ -15,7 +15,7 @@ publications: active
   {% if reference.link %}
     <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>  
 		  {% if reference.author %} 
-		     (with {{reference.author}})
+		     </br>( with {{ reference.author }})
           {% endif %}
     {% else %}
     {{ reference.title }}.
