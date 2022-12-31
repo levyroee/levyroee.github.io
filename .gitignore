@@ -2,3 +2,4 @@ _site/
 Gemfile
 Gemfile.lock
 collections/.DS_Store
+collections/backup*
