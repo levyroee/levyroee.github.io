@@ -7,7 +7,10 @@ publications: active
 <div class="info">
 
 {% for collection in site.collections %}
-{{ site[collection.label] }}
+{{ collection }}
+{{ collection[0] }}
+{{ collection[1] }}
+{{ collection[1].title }}
 {% endfor %}
 
 <p><h3><b>Publications</b></h3></p>
