@@ -2,7 +2,7 @@ permalink: /notes/:year/:month/:day/:title
 markdown: kramdown
 collections_dir: collections
 collections:
-  - peer-reviewed
+  - publications
   - working-papers
-  - commentary
+  - in-progress
   - posts
