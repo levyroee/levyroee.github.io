@@ -1,0 +1,8 @@
+permalink: /notes/:year/:month/:day/:title
+markdown: kramdown
+collections_dir: collections
+collections:
+  - peer-reviewed
+  - working-papers
+  - commentary
+  - posts
