@@ -1,8 +1,8 @@
 ---
-target: 2022levy_mattsson
-order: 1
+target: 2022populism
+order: 2
 authors: <b>Schpero WL</b>, Ndumele CD
-title: The Effects of Social Movements: Evidence from #MeToo
+title: Decomposing the Global Rise of Populist Parties
 link: https://www.google.com/url?q=https%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D3496903&sa=D&sntz=1&usg=AOvVaw0AJ0JMdLqdZcfM4MxuQVMy
 journal:
 meta:
