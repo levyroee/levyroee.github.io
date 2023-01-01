@@ -6,9 +6,105 @@ publications: active
 
 <div class="info">
 
+{% for collection in site.collections %}
+	
+	{% assign myLabel = collection.label %}
+	
+	{% assign print-collection = false %}
+	{% if myLabel =="publications" %}
+		<p><h3><b>Publications</b></h3></p>
+		{% assign print-collection = true %}
+	{% endif %}
+	{% if myLabel=="zin-progress" %}
+		<p><h3><b>Work in progress</b></h3></p>
+		{% assign print-collection = true %}
+	{% endif %}
+	{% if myLabel=="working-papers" %}
+		<p><h3><b>Working papers</b></h3></p>
+		{% assign print-collection = true %}
+	{% endif %}
+	
+	
+	{% assign sorted = site.documents | sort: 'order' | reverse %}
+	{% for reference in sorted %}
 
+		{% if reference.collection == myLabel %}
+		{% if true %}
 
-<p><h3><b>Publications</b></h3></p>
+		  <p>  <span style="font-size: 18px">
+		  {% if reference.link %}
+			<a href="{{ reference.link }}" target="_blank">
+		  {% endif %}
+		    {{ reference.title }}  
+		  {% if reference.link %}
+			</a>  
+		  {% endif %}
+		  </span> </br>
+		  {% if reference.authors %} 
+			 (with {{ reference.authors }}) </br>
+		  {% endif %}
+			
+		  {% if reference.journal %}
+			<i>{{ reference.journal }}</i>.
+			{% if reference.meta %}
+				{{ reference.meta }}.
+			{% endif %}
+			<br>
+		  {% endif %}
+		  
+		  {% if reference.abstract == "y" %}
+			<a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}a" role="button" aria-expanded="false" aria-controls="{{ reference.target }}a"><span class="if-collapsed">Abstract [+]</span><span class="if-not-collapsed">Abstract [-]</span></a>
+		  {% endif %}
+		  {% if reference.award %}
+			<a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}aw" role="button" aria-expanded="false" aria-controls="{{ reference.target }}aw"><span class="if-collapsed">Award [+]</span><span class="if-not-collapsed">Award [-]</span></a>
+		  {% endif %}
+		    <details>
+			<summary style="font-size: 0.70rem; color: #f08080; text-align:justify"> Coverage </summary>
+				<div style="font-size: 0.70rem; color: grey; text-align:justify">
+				reference.coverage
+				</div>
+			</details>    
+			</p>
+
+			{% if reference.abstract == "y" %}
+			  <div class="collapse" id="{{ reference.target }}a">
+				<div class="panel panel-default">
+				<div class="panel-heading"><b>Abstract</b></div>
+				<div class="panel-body">
+				  {{ reference.content }}
+				</div>
+				</div>
+			  </div>
+			{% endif %}
+			{% if reference.award %}
+			  <div class="collapse" id="{{ reference.target }}aw">
+				<div class="panel panel-default">
+				<div class="panel-heading"><b>Award</b></div>
+				<div class="panel-body">
+				  {{ reference.award }}
+				</div>
+				</div>
+			  </div>
+			  {% endif %}
+			{% if reference.coverage %}
+			  <div class="collapse" id="{{ reference.target }}c">
+				<div class="panel panel-default">
+				<div class="panel-heading"><b>Coverage</b></div>
+				<div class="panel-body">
+				  {{ reference.coverage }}
+				</div>
+				</div>
+			  </div>
+			{% endif %}
+		{% endif %}
+		<br>
+		{% endif %}				
+	{% endfor %}
+	
+
+{% endfor %}
+
+{% if false %}
 
 {% assign sorted = site.publications | sort: 'order' | reverse %}
 {% for reference in sorted %}
@@ -39,7 +135,12 @@ publications: active
     <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}aw" role="button" aria-expanded="false" aria-controls="{{ reference.target }}aw"><span class="if-collapsed">Award [+]</span><span class="if-not-collapsed">Award [-]</span></a>
   {% endif %}
   {% if reference.coverage %}
-    <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}c" role="button" aria-expanded="false" aria-controls="{{ reference.target }}c"><span class="if-collapsed">Coverage [+]</span><span class="if-not-collapsed">Coverage [-]</span></a>
+    <details>
+		<summary style="font-size: 0.70rem; color: #f08080; text-align:justify"> Coverage </summary>
+		<div style="font-size: 0.70rem; color: grey; text-align:justify">
+		reference.coverage
+		</div>
+	</details>    
   {% endif %}
 </p>
 
@@ -204,3 +305,4 @@ publications: active
 
 <br>
 </div>
+{% endif %}		

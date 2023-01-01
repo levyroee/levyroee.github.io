@@ -1,11 +1,11 @@
 ---
 target: 2022_mentalhealth
-order: 1
+order: 40
 authors: <a href="https://sites.google.com/view/lucabraghieri/home"> Luca Braghieri </a> and <a href="https://alexeymakarin.github.io/"> Alexey Makarin </a>
 title: Social Media and Mental Health 
 link: https://www.aeaweb.org/articles?id=10.1257/aer.20211218
 journal: American Economic Review 
-meta: 
+meta: 2022
 abstract: y
 award: 
 coverage: 
