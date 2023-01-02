@@ -29,9 +29,8 @@ publications: active
 	{% for reference in sorted %}
 
 		{% if reference.collection == myLabel %}
-		{% if true %}
 
-		  <p>  <span style="font-size: 18px">
+		  <p>  <span style="font-size: 20px">
 		  {% if reference.link %}
 			<a href="{{ reference.link }}" target="_blank">
 		  {% endif %}
@@ -45,264 +44,38 @@ publications: active
 		  {% endif %}
 			
 		  {% if reference.journal %}
-			<i>{{ reference.journal }}</i>.
-			{% if reference.meta %}
-				{{ reference.meta }}.
+			<i>{{ reference.journal }}</i>,
+			{% if reference.year %}
+				{{ reference.year }}
 			{% endif %}
 			<br>
 		  {% endif %}
-		  
-		  {% if reference.abstract == "y" %}
-			<a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}a" role="button" aria-expanded="false" aria-controls="{{ reference.target }}a"><span class="if-collapsed">Abstract [+]</span><span class="if-not-collapsed">Abstract [-]</span></a>
+  		  {% if reference.award %}
+			{{ reference.award }}
+		  	<br>
 		  {% endif %}
-		  {% if reference.award %}
-			<a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}aw" role="button" aria-expanded="false" aria-controls="{{ reference.target }}aw"><span class="if-collapsed">Award [+]</span><span class="if-not-collapsed">Award [-]</span></a>
+		  {% if reference.coverage %}
+			Coverage: {{ reference.coverage }}
 		  {% endif %}
-		    <details>
-			<summary style="font-size: 0.70rem; color: #f08080; text-align:justify"> Coverage </summary>
-				<div style="font-size: 0.70rem; color: grey; text-align:justify">
-				reference.coverage
-				</div>
-			</details>    
-			</p>
 
-			{% if reference.abstract == "y" %}
-			  <div class="collapse" id="{{ reference.target }}a">
-				<div class="panel panel-default">
-				<div class="panel-heading"><b>Abstract</b></div>
-				<div class="panel-body">
-				  {{ reference.content }}
-				</div>
-				</div>
-			  </div>
-			{% endif %}
-			{% if reference.award %}
-			  <div class="collapse" id="{{ reference.target }}aw">
-				<div class="panel panel-default">
-				<div class="panel-heading"><b>Award</b></div>
-				<div class="panel-body">
-				  {{ reference.award }}
-				</div>
-				</div>
-			  </div>
-			  {% endif %}
-			{% if reference.coverage %}
-			  <div class="collapse" id="{{ reference.target }}c">
-				<div class="panel panel-default">
-				<div class="panel-heading"><b>Coverage</b></div>
-				<div class="panel-body">
-				  {{ reference.coverage }}
-				</div>
-				</div>
-			  </div>
-			{% endif %}
-		{% endif %}
+	
+		  {% if reference.abstract %}
+		    <details style="margin-top:-8px">
+			<!--- based on https://stackoverflow.com/questions/67495928/missing-disclosure-triangle-when-using-the-summary-tag -->
+			<summary  style="display:list-item"> Abstract </summary> 
+				{{ reference.content }}
+			</details>    
+		  {% endif %}
+
+
 		<br>
+		</p>
 		{% endif %}				
 	{% endfor %}
 	
-
-{% endfor %}
-
-{% if false %}
-
-{% assign sorted = site.publications | sort: 'order' | reverse %}
-{% for reference in sorted %}
-<p>
-  
-  {% if reference.link %}
-    <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>  
-  {% else %}
-      {{ reference.title }}.
-  {% endif %}
-	</br>
-  {% if reference.authors %} 
-	 ( with {{ reference.authors }}) </br>
-  {% endif %}
-    
-  {% if reference.journal %}
-    <i>{{ reference.journal }}</i>.
-	{% if reference.meta %}
-		{{ reference.meta }}.
-	{% endif %}
-	<br>
-  {% endif %}
-  
-  {% if reference.abstract == "y" %}
-    <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}a" role="button" aria-expanded="false" aria-controls="{{ reference.target }}a"><span class="if-collapsed">Abstract [+]</span><span class="if-not-collapsed">Abstract [-]</span></a>
-  {% endif %}
-  {% if reference.award %}
-    <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}aw" role="button" aria-expanded="false" aria-controls="{{ reference.target }}aw"><span class="if-collapsed">Award [+]</span><span class="if-not-collapsed">Award [-]</span></a>
-  {% endif %}
-  {% if reference.coverage %}
-    <details>
-		<summary style="font-size: 0.70rem; color: #f08080; text-align:justify"> Coverage </summary>
-		<div style="font-size: 0.70rem; color: grey; text-align:justify">
-		reference.coverage
-		</div>
-	</details>    
-  {% endif %}
-</p>
-
-{% if reference.abstract == "y" %}
-  <div class="collapse" id="{{ reference.target }}a">
-    <div class="panel panel-default">
-    <div class="panel-heading"><b>Abstract</b></div>
-    <div class="panel-body">
-      {{ reference.content }}
-    </div>
-    </div>
-  </div>
-{% endif %}
-{% if reference.award %}
-  <div class="collapse" id="{{ reference.target }}aw">
-    <div class="panel panel-default">
-    <div class="panel-heading"><b>Award</b></div>
-    <div class="panel-body">
-      {{ reference.award }}
-    </div>
-    </div>
-  </div>
-  {% endif %}
-{% if reference.coverage %}
-  <div class="collapse" id="{{ reference.target }}c">
-    <div class="panel panel-default">
-    <div class="panel-heading"><b>Coverage</b></div>
-    <div class="panel-body">
-      {{ reference.coverage }}
-    </div>
-    </div>
-  </div>
-{% endif %}
-{% endfor %}
-
-<p><h3><b>Working Papers</b></h3></p>
-
-{% assign sorted = site.working-papers | sort: 'order' | reverse %}
-{% for reference in sorted %}
-<p>
-  
-  {% if reference.link %}
-    <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>  
-  {% else %}
-      {{ reference.title }}.
-  {% endif %}
-	</br>
-  {% if reference.authors %} 
-	 ( with {{ reference.authors }}) </br>
-  {% endif %}
-    
-  {% if reference.journal %}
-    <i>{{ reference.journal }}</i>.
-  {% endif %}
-  {% if reference.meta %}
-    {{ reference.meta }}.
-  {% endif %}
-  <br>
-  {% if reference.abstract == "y" %}
-    <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}a" role="button" aria-expanded="false" aria-controls="{{ reference.target }}a"><span class="if-collapsed">Abstract [+]</span><span class="if-not-collapsed">Abstract [-]</span></a>
-  {% endif %}
-  {% if reference.award %}
-    <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}aw" role="button" aria-expanded="false" aria-controls="{{ reference.target }}aw"><span class="if-collapsed">Award [+]</span><span class="if-not-collapsed">Award [-]</span></a>
-  {% endif %}
-  {% if reference.coverage %}
-    <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}c" role="button" aria-expanded="false" aria-controls="{{ reference.target }}c"><span class="if-collapsed">Coverage [+]</span><span class="if-not-collapsed">Coverage [-]</span></a>
-  {% endif %}
-</p>
-
-{% if reference.abstract == "y" %}
-  <div class="collapse" id="{{ reference.target }}a">
-    <div class="panel panel-default">
-    <div class="panel-heading"><b>Abstract</b></div>
-    <div class="panel-body">
-      {{ reference.content }}
-    </div>
-    </div>
-  </div>
-{% endif %}
-{% if reference.award %}
-  <div class="collapse" id="{{ reference.target }}aw">
-    <div class="panel panel-default">
-    <div class="panel-heading"><b>Award</b></div>
-    <div class="panel-body">
-      {{ reference.award }}
-    </div>
-    </div>
-  </div>
-  {% endif %}
-{% if reference.coverage %}
-  <div class="collapse" id="{{ reference.target }}c">
-    <div class="panel panel-default">
-    <div class="panel-heading"><b>Coverage</b></div>
-    <div class="panel-body">
-      {{ reference.coverage }}
-    </div>
-    </div>
-  </div>
-{% endif %}
 {% endfor %}
 
 
-<p><h3><b>Work in progress</b></h3></p>
 
-{% assign sorted = site.in-progress | sort: 'order' | reverse %}
-{% for reference in sorted %}
-<p>
-  {{ reference.authors }}.
-  {% if reference.link %}
-    <a href="{{ reference.link }}" target="_blank">{{ reference.title }}</a>.
-    {% else %}
-    {{ reference.title }}.
-  {% endif %}
-  {% if reference.journal %}
-    <i>{{ reference.journal }}</i>.
-  {% endif %}
-  {% if reference.meta %}
-    {{ reference.meta }}.
-  {% endif %}
-  {% if reference.abstract == "y" %}
-    <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}a" role="button" aria-expanded="false" aria-controls="{{ reference.target }}a"><span class="if-collapsed">Abstract [+]</span><span class="if-not-collapsed">Abstract [-]</span></a>
-  {% endif %}
-  {% if reference.award %}
-    <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}aw" role="button" aria-expanded="false" aria-controls="{{ reference.target }}aw"><span class="if-collapsed">Award [+]</span><span class="if-not-collapsed">Award [-]</span></a>
-  {% endif %}
-  {% if reference.coverage %}
-    <a class="btn btn-default btn-xs collapsed" data-toggle="collapse" data-target="#{{ reference.target }}c" role="button" aria-expanded="false" aria-controls="{{ reference.target }}c"><span class="if-collapsed">Coverage [+]</span><span class="if-not-collapsed">Coverage [-]</span></a>
-  {% endif %}
-</p>
 
-{% if reference.abstract == "y" %}
-  <div class="collapse" id="{{ reference.target }}a">
-    <div class="panel panel-default">
-    <div class="panel-heading"><b>Abstract</b></div>
-    <div class="panel-body">
-      {{ reference.content }}
-    </div>
-    </div>
-  </div>
-{% endif %}
-{% if reference.award %}
-  <div class="collapse" id="{{ reference.target }}aw">
-    <div class="panel panel-default">
-    <div class="panel-heading"><b>Award</b></div>
-    <div class="panel-body">
-      {{ reference.award }}
-    </div>
-    </div>
-  </div>
-  {% endif %}
-{% if reference.coverage %}
-  <div class="collapse" id="{{ reference.target }}c">
-    <div class="panel panel-default">
-    <div class="panel-heading"><b>Coverage</b></div>
-    <div class="panel-body">
-      {{ reference.coverage }}
-    </div>
-    </div>
-  </div>
-{% endif %}
-{% endfor %}
 
-<br>
-</div>
-{% endif %}		
