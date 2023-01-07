@@ -15,10 +15,14 @@ coverage:
     url: "https://www.pbs.org/newshour/nation/from-tech-to-society-how-weve-changed-in-a-decade" 
   Bloomberg:
     url: "https://news.bloomberglaw.com/daily-labor-report/what-harvey-weinsteins-guilty-verdict-means-for-metoo-movement?utm_source=rss&utm_medium=DLNW&utm_campaign=00000170-792b-dd9a-a7fd-7f6f5a480000"
+  Washington Post: 
+    url: "https://www.washingtonpost.com/arts-entertainment/2022/06/02/me-too-amber-heard-johnny-depp/"  
   The Straight Times Op Ed:
     url: "https://www.straitstimes.com/opinion/metoo-shows-power-of-social-movements"
   TheWrap: 
     url: "https://www.thewrap.com/me-too-hashtag-5-year-anniversary-beyond-hollywood-changes/"
+  Scripps News:
+    url: "https://scrippsnews.com/stories/nassar-sexual-abuse-fallout-doesn-t-end-with-his-sentencing/"
   Dagens Nyheter:
     url: "https://www.dn.se/kultur-noje/sa-foll-harvey-weinstein-metoos-huvudanklagade/"
     post: (Swedish)
