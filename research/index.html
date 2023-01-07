@@ -31,42 +31,68 @@ publications: active
 		{% if reference.collection == myLabel %}
 
 		  <p>  <span style="font-size: 20px">
-		  {% if reference.link %}
+		   {% if reference.link %}
 			<a href="{{ reference.link }}" target="_blank">
-		  {% endif %}
+		  {% endif %} 
 		    {{ reference.title }}  
 		  {% if reference.link %}
 			</a>  
 		  {% endif %}
 		  </span> </br>
 		  {% if reference.authors %} 
-			 (with {{ reference.authors }}) </br>
+			 (with {{ reference.authors}})</br>
 		  {% endif %}
 			
 		  {% if reference.journal %}
-			<i>{{ reference.journal }}</i>,
+			<i><b>			{{ reference.journal }}</b></i>,
 			{% if reference.year %}
 				{{ reference.year }}
-			{% endif %}
-			<br>
-		  {% endif %}
-  		  {% if reference.award %}
-			{{ reference.award }}
+			{% endif %}		
+			{% if reference.ungated %} | 
+					<a href={{reference.ungated}} target="_blank">
+					Ungated</a>		
+				{% endif %}		
+		  {% endif %}		  		  
+  		  {% if reference.award %}		  
+			<span style="font-size: 14px; margin-left: 20px; display:inline-block">
+			 {{  reference.award }}
+			 </span>
 		  	<br>
 		  {% endif %}
-		  {% if reference.coverage %}
-			Coverage: {{ reference.coverage }}
-		  {% endif %}
 
-	
+		  {% if reference.coverage %}
+   			<span style="font-size: 14px; margin-left: 20px; display:inline-block">
+			Coverage and popular writing: 
+			{%- for item in reference.coverage -%} 
+				{% assign postText = "" %}
+				{% if item[1].post %}
+				   {% assign postText = " " | append: item[1].post %}
+			    {% endif %}	
+				{% if forloop.last == false %}
+					{% assign postText = postText | append: ',' %}
+				{% endif %}	
+				{% if item[1].pre %}
+				   {{item[1].pre}}
+			    {% endif %}
+				<a href={{item[1].url}} target="_blank">{{item[0]}}</a>{{postText}}				
+			{% endfor %}   
+		   </span>	
+		  {% endif %}	
 		  {% if reference.abstract %}
-		    <details style="margin-top:-8px">
+		    <details style="margin-top:-6px">
 			<!--- based on https://stackoverflow.com/questions/67495928/missing-disclosure-triangle-when-using-the-summary-tag -->
-			<summary  style="display:list-item"> Abstract </summary> 
+			<summary  style="display:list-item"> 
+				Abstract 
+				{% comment %}
+				{% if reference.ungated %}
+					<a href={{reference.ungated}} target="_blank" style="background-color:LightGray; color:black; border: 1px solid black;">
+					Ungated version</a>		
+				{% endif %}		
+				{% endcomment %}
+			</summary> 
 				{{ reference.content }}
 			</details>    
 		  {% endif %}
-
 
 		<br>
 		</p>
