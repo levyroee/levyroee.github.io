@@ -12,6 +12,11 @@ award: Econometric Society European Meetings (ESEM) Best Paper Award 2022
 coverage:  
   VoxEU: 
     url: "https://cepr.org/voxeu/columns/social-media-and-mental-health"  
+  Tech Policy Podcast: 
+    url: "https://techpolicy.press/a-causal-link-between-facebook-and-mental-health/"
+  Kan Tarbut:
+    url: "https://www.kankids.org.il/podcast/item.aspx?pid=29002"
+    post: radio interview (Hebrew)
   Freakonomics MD interview: 
     url: "https://freakonomics.com/podcast/is-facebook-bad-for-your-mental-health/"
   Financial Times:
@@ -64,9 +69,6 @@ coverage:
   N12:
     url: "https://www.mako.co.il/news-science/2022_q3/Article-0d526574c0b3381027.htm"
     post: (Hebrew)
-  Kan Tarbut:
-    url: "https://www.ifatmediasite.com/ms/radio/2022/10/18/11731379.mp3"
-    post: radio interview (Hebrew)
 ungated: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3919760"
 ---
 We provide quasi-experimental estimates of the impact of social media on mental health by leveraging a unique natural experiment: the staggered introduction of Facebook across US colleges. Our analysis couples data on student mental health around the years of Facebook's expansion with a generalized difference-in-differences empirical strategy. We find that the rollout of Facebook at a college had a negative impact on student mental health. It also increased the likelihood with which students reported experiencing impairments to academic performance due to poor mental health. Additional evidence on mechanisms suggests the results are due to Facebook fostering unfavorable social comparisons.
