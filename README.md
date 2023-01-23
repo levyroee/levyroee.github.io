@@ -1,7 +1,7 @@
 levyroee.github.io
 ========
 
-Code for [roeelevy.com](http://williamschpero.com). This website is inspired by [William Schpero](https://github.com/wschpero/wschpero.github.io). 
+Code for [roeelevy.com](http://roeelevy.com). This website is inspired by [William Schpero](https://github.com/wschpero/wschpero.github.io). 
 
 Be sure to change the Google Analytics key and site URL in `_includes/analytics.html` if you fork or otherwise use this code for your website.
 
