@@ -1,0 +1,106 @@
+---
+layout: default
+title: Ro'ee Levy | Research
+publications: active
+---
+
+<div class="info">
+
+{% for collection in site.collections %}
+	
+	{% assign myLabel = collection.label %}
+	
+	{% assign print-collection = false %}
+	{% if myLabel =="publications" %}
+		<p><h3><b>Publications</b></h3></p>
+		{% assign print-collection = true %}
+	{% endif %}
+	{% if myLabel=="zin-progress" %}
+		<p><h3><b>Work in progress</b></h3></p>
+		{% assign print-collection = true %}
+	{% endif %}
+	{% if myLabel=="working-papers" %}
+		<p><h3><b>Working papers</b></h3></p>
+		{% assign print-collection = true %}
+	{% endif %}
+	
+	
+	{% assign sorted = site.documents | sort: 'order' | reverse %}
+	{% for reference in sorted %}
+
+		{% if reference.collection == myLabel %}
+
+		  <p>  <span style="font-size: 19px">
+		   {% if reference.link %}
+			<a href="{{ reference.link }}" target="_blank">
+		  {% endif %} 
+		    {{ reference.title }}  
+		  {% if reference.link %}
+			</a>  
+		  {% endif %}
+		  </span> </br>
+		  {% if reference.authors %} 
+			 (with {{ reference.authors}})</br>
+		  {% endif %}
+			
+		  {% if reference.journal %}
+			<i><b>			{{ reference.journal }}</b></i>,
+			{% if reference.year %}
+				{{ reference.year }}
+			{% endif %}		
+			{% if reference.ungated %} | 
+				<a href={{reference.ungated}} target="_blank">Ungated</a>		
+			{% endif %}		
+		  <br>
+		  {% endif %}		  		  
+  		  {% if reference.award %}		  
+			<span style="font-size: 14px; margin-left: 20px; display:inline-block"><i>
+			 {{  reference.award }} </i>
+			 </span>
+		  	<br>
+		  {% endif %}
+
+		  {% if reference.coverage %}
+   			<span style="font-size: 14px; margin-left: 20px; display:inline-block">
+			Coverage and popular writing: 
+			{%- for item in reference.coverage -%} 
+				{% assign postText = "" %}
+				{% if item[1].post %}
+				   {% assign postText = " " | append: item[1].post %}
+			    {% endif %}	
+				{% if forloop.last == false %}
+					{% assign postText = postText | append: ',' %}
+				{% endif %}	
+				{% if item[1].pre %}
+				   {{item[1].pre}}
+			    {% endif %}
+				<a href={{item[1].url}} target="_blank">{{item[0]}}</a>{{postText}}				
+			{% endfor %}   
+		   </span>	
+		  {% endif %}	
+		  {% if reference.abstract %}
+		    <details style="margin-top:-6px">
+			<!--- based on https://stackoverflow.com/questions/67495928/missing-disclosure-triangle-when-using-the-summary-tag -->
+			<summary  style="display:list-item"> 
+				Abstract 
+				{% comment %}
+				{% if reference.ungated %}
+					<a href={{reference.ungated}} target="_blank" style="background-color:LightGray; color:black; border: 1px solid black;">
+					Ungated version</a>		
+				{% endif %}		
+				{% endcomment %}
+			</summary> 
+				{{ reference.content }}
+			</details>    
+		  {% endif %}
+
+		<br>
+		</p>
+		{% endif %}				
+	{% endfor %}
+	
+{% endfor %}
+
+
+
+
