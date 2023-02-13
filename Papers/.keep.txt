@@ -1,0 +1,3 @@
+For Google Console - reports error for pdf link
+
+https://search.google.com/search-console/index/validation?resource_id=sc-domain:roeelevy.com&item_key=CAMYDSAC&hl=en
