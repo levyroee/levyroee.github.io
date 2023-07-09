@@ -10,15 +10,21 @@ year: 2022
 abstract: y
 award: Econometric Society European Meetings (ESEM) Best Paper Award 2022
 coverage:  
-  VoxEU: 
+  VoxEU Brief: 
     url: "https://cepr.org/voxeu/columns/social-media-and-mental-health"  
-  Tech Policy Podcast: 
+  Tech Policy Podcast interview: 
     url: "https://techpolicy.press/a-causal-link-between-facebook-and-mental-health/"
-  Kan Tarbut:
+  Kan Tarbut radio interview:
     url: "https://www.kankids.org.il/podcast/item.aspx?pid=29002"
-    post: radio interview (Hebrew)
+    post: (Hebrew)
   Freakonomics MD interview: 
     url: "https://freakonomics.com/podcast/is-facebook-bad-for-your-mental-health/"
+  The New York Times:
+    url: "https://www.nytimes.com/2023/02/24/opinion/social-media-and-teen-depression.html" 
+  NPR:
+    url: "https://www.npr.org/sections/health-shots/2023/04/25/1171773181/social-media-teens-mental-health"
+  The Atlantic: 
+    url: "https://www.theatlantic.com/technology/archive/2023/06/social-media-teen-mental-health-crisis-research-limitations/674371/?utm_source=substack&utm_medium=email"
   Financial Times:
     url: "https://www.ft.com/content/a81ad7f0-37be-49f1-a7ac-f0e4c57c4342" 
   The Guardian:
@@ -39,6 +45,12 @@ coverage:
     url: "https://www.sparrow.science/facebooks-historic-university-rollout-caused-a-rise-in-depression/"
   A Dopamine Kick Podcast:
     url: "https://podcast.adopaminekick.com/1898728/10406894"
+  Il Post: 
+    url: "https://www.ilpost.it/2023/03/10/smartphone-social-salute-mentale/"
+    post: (Italian)
+  Metro: 
+    url: "https://metronews.it/2022/09/19/facebook-ammala-gli-adolescenti/"
+    post: (Italian)
   La Opinión:
     url: "https://laopinion.com/2022/09/24/usar-facebook-a-diario-puede-provocar-depresion-y-ansiedad-segun-especialistas-por-que/"
     post: (Spanish)
@@ -57,9 +69,6 @@ coverage:
   Econs.Online:
     url: "https://econs.online/articles/ekonomika/samye-vazhnye-ekonomicheskie-issledovaniya-i-otkrytiya-2021-goda/"
     post: (Russian)
-  Metro: 
-    url: "https://metronews.it/2022/09/19/facebook-ammala-gli-adolescenti/"
-    post: (Italian)
   Gazeta.pl:
     url: "https://zdrowie.gazeta.pl/Zdrowie/7,105645,28933163,korzystanie-z-facebooka-grozi-depresja-naukowcy-istnieje.html"
     post: (Polish)
