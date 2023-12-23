@@ -44,10 +44,7 @@ publications: active
 		  {% endif %}
 			
 		  {% if reference.journal %}
-			<i><b>			{{ reference.journal }}</b></i>,
-			{% if reference.year %}
-				{{ reference.year }}
-			{% endif %}		
+			<i><b>			{{ reference.journal}}</b></i>{% if reference.year %}, {{ reference.year }}{% endif %}		
 			{% if reference.ungated %} | 
 				<a href={{reference.ungated}} target="_blank">Ungated</a>		
 			{% endif %}		

@@ -31,6 +31,8 @@ coverage:
     url: "https://www.theguardian.com/commentisfree/2022/sep/18/finally-we-have-evidence-that-hell-is-other-people-on-social-media"
   Brookings:
     url: "https://www.brookings.edu/research/how-to-fix-social-media-start-with-independent-research/"
+  Grattan Institute Wonks' List:
+    url: "https://grattan.edu.au/news/wonks-list-2023/"
   Cosmos:
     url: "https://cosmosmagazine.com/health/teen-girls-depression-black-dog-report/"
   Times of India:
