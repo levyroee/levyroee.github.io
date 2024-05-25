@@ -19,8 +19,6 @@ coverage:
     post: (Hebrew)
   Freakonomics MD interview: 
     url: "https://freakonomics.com/podcast/is-facebook-bad-for-your-mental-health/"
-  The New York Times:
-    url: "https://www.nytimes.com/2023/02/24/opinion/social-media-and-teen-depression.html" 
   NPR:
     url: "https://www.npr.org/sections/health-shots/2023/04/25/1171773181/social-media-teens-mental-health"
   The Atlantic: 
@@ -37,6 +35,10 @@ coverage:
     url: "https://cosmosmagazine.com/health/teen-girls-depression-black-dog-report/"
   Times of India:
     url: "https://timesofindia.indiatimes.com/times-special/social-media-addiction-gives-you-anxiety-depression-us-study/articleshow/94386354.cms"
+  The New York Times (1):
+    url: "https://www.nytimes.com/2023/02/24/opinion/social-media-and-teen-depression.html" 
+  The New York Times (2):
+    url: "https://www.nytimes.com/2023/05/25/opinion/college-students-monks-mental-health-smart-phones.html"
   Jerusalem Post:
     url: "https://www.jpost.com/health-and-wellness/mind-and-spirit/article-717454"
   Emily Oster’s Substack:
