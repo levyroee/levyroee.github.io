@@ -5,7 +5,7 @@ authors: <a href="https://www.guyaridor.net/">  Guy Aridor, <a href="https://www
 title: "The Economics of Social Media"
 link: https://www.aeaweb.org/articles?id=10.1257/jel.20241743&&from=f
 journal: Journal of Economic Literature 
-year: Forthcoming
+year: 2024
 meta: 
 abstract: y
 ungated: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4708840
