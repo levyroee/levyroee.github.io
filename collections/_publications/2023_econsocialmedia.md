@@ -1,6 +1,6 @@
 ---
 target: 2023_econsocialmedia
-order: 1
+order: 100
 authors: <a href="https://www.guyaridor.net/">  Guy Aridor, <a href="https://www.rafaeljjd.com/"> Rafael Jiménez-Durán</a>, and <a href="https://www.songlena.com/">Lena Song</a> 
 title: "The Economics of Social Media"
 link: https://www.aeaweb.org/articles?id=10.1257/jel.20241743&&from=f
