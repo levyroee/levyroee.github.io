@@ -6,7 +6,7 @@ authors: <a href="https://sites.google.com/view/lucabraghieri/home/"> Luca Bragh
 
 
 title: Article-level Slant and Polarization in News Consumption on Social Media
-link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4255937
+link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4932600
 journal: 
 meta:
 abstract: y
