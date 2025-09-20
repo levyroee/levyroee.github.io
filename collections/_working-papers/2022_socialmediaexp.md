@@ -9,6 +9,11 @@ journal: Forthcoming Chapter for the Handbook of Experimental Methods in the Soc
 meta: 
 abstract: y 
 coverage:
+  VoxEU:
+    url: "https://cepr.org/voxeu/columns/practical-guide-running-social-media-experiments"
+  EC'25 Tutorial:
+    url: "https://www.guyaridor.net/ec25tutorial.html"
+
 ---
 
 We provide a practical guide to designing, conducting, and analyzing experiments using social media platforms. First, we discuss the benefits and challenges of using the targeting capabilities of advertisements on social media to recruit participants for a large class of experiments. Next, we outline the different types of interventions and their advantages and disadvantages. Finally, we summarize available compliance and outcome data, as well as the main limitations and challenges involved in the design and analysis of social media experiments. Throughout, we provide technical details that are helpful when implementing these experiments. Overall, we argue that experiments on social media are powerful not only for studying economic issues around social media and online platforms but also for experiments studying economic behavior more broadly.

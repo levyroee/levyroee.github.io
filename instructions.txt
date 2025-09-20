@@ -6,6 +6,8 @@ First downloaded ruby here:
   https://jekyllrb.com/docs/installation/windows/
 
 Then 
+  git bash 
+  cd C:/GitProjects/levyroee.github.io
   gem install jekyll bundler . 
 
 I was missing Gemfile so created one manually 

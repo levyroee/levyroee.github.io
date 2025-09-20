@@ -1,6 +1,6 @@
 ---
 target: 2022_populism
-order: 1
+order: 2
 authors: <a href="https://www.orendanieli.com/"> Oren Danieli</a>, <a href=https://scholar.harvard.edu/gidron/home"> Noam Gidron </a>, and <a href="https://www.shinnosuke-kikuchi.com/"> Shinnosuke Kikuchi</a>
 title: Decomposing the Global Rise of Populist Parties
 link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4255937
