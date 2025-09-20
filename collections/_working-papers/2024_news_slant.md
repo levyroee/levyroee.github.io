@@ -9,5 +9,8 @@ meta:
 abstract: y
 award: 
 coverage:
+  VoxEU:
+    url: "https://cepr.org/voxeu/columns/article-level-slant-and-polarisation-news-consumption-social-media"
+
 ---
 How polarized is news consumption on social media? We fine-tune a large-language-model to assign a content-based measure of slant to the near-universe of hard-news articles published online by the top 100 U.S. outlets in 2019. We find that polarized news consumption on Facebook, defined as the difference in the average slant of articles consumed by Republicans and Democrats on the platform, is arguably high. We identify pro-attitudinal news consumption within outlets as a crucial mechanism. Analyzing the distribution of slant on the production side, we find that 67% of the article-level variation in slant is within rather than across outlets.
