@@ -49,6 +49,8 @@ coverage:
     url: "https://www.sparrow.science/facebooks-historic-university-rollout-caused-a-rise-in-depression/"
   A Dopamine Kick Podcast:
     url: "https://podcast.adopaminekick.com/1898728/10406894"
+  AEA Research highlights:
+    url: "https://www.aeaweb.org/research/charts/social-media-mental-health-college"  
   Il Post: 
     url: "https://www.ilpost.it/2023/03/10/smartphone-social-salute-mentale/"
     post: (Italian)

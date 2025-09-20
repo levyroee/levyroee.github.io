@@ -2,7 +2,7 @@
 target: 2024_slant
 order: 1
 authors:  Aarushi Kalra and Martin Mattsson 
-title: "Causes and Consequences of Internet Shutdowns"
+title: "Targeted Disruptions: Internet Shutdowns in India"
 link: 
 journal: 
 meta: 
