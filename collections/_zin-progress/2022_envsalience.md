@@ -1,8 +1,8 @@
 ---
 target: 2022_envsalience
-order: 1
+order: 6
 authors: Maximiliano Lauletta, Joseph S. Shapiro, and Dmitry Taubinsky
-title: Why do Governments Implement Inefficient Environmental Policies? The Roles of Misunderstanding and Equity
+title: Understanding Support for Inefficient Environmental Policy Instruments
 link: 
 journal: 
 meta: 

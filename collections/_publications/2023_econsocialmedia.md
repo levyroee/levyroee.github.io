@@ -12,6 +12,8 @@ ungated: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4708840
 coverage:
   VoxEU: 
     url: "https://cepr.org/voxeu/columns/economics-social-media?utm_source=dlvr.it&utm_medium=twitter"
+  slides from EC'25 Tutorial: 
+    url: "https://www.guyaridor.net/files/jel_social_media_slides.pdf"
   Folha de S.Paulo: 
     url: "https://www1.folha.uol.com.br/colunas/bernardo-guimaraes/2024/04/devemos-regular-as-redes-sociais.shtml"
     post: (Portuguese)
