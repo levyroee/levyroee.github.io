@@ -1,6 +1,6 @@
 ---
 target: 2024_news_slant
-order: 3
+order: 9
 authors: <a href="https://sites.google.com/view/lucabraghieri/home/"> Luca Braghieri</a>, <a href=https://sites.google.com/view/saraheichmeyer/home"> Sarah Eichmeyer  </a>, <a href="https://www.markusmobius.org/"> Markus Mobius</a>, <a href="https://jsteinhardt.stat.berkeley.edu/"> Jacob Steinhardt</a>, and <a href="https://ruiqi-zhong.github.io/"> Ruiqi Zhong</a>
 title: Article-level Slant and Polarization in News Consumption on Social Media
 link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4932600
