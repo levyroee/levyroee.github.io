@@ -5,10 +5,14 @@ FIRST TIME
 First downloaded ruby here: 
   https://jekyllrb.com/docs/installation/windows/
 
+Use this version of ruby since newer version doin't work well with my github site: Ruby+Devkit 3.1.6-1 (x64)  - https://rubyinstaller.org/downloads/archives/
+
 Then 
   git bash 
   cd C:/GitProjects/levyroee.github.io
   gem install jekyll bundler . 
+
+check 
 
 I was missing Gemfile so created one manually 
 
@@ -20,4 +24,5 @@ Then
 ----
 
 Running 
+cd E:/GitProjects/levyroee.github.io
    bundle exec jekyll serve
