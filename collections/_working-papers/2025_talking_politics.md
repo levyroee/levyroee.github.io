@@ -5,7 +5,7 @@ authors: <a href="https://www.guyaridor.net/"> Guy Aridor</a>, Tevel Dekel, <a h
 link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5364054
 title: "Digital News Consumption: Evidence from Smartphone Content in the 2024 US Elections"
 award: Econometric Society Asian Meetings (AMES-CSW) Best Paper Award 2026
-journal: Revise and Resubmit, Science Advnaces
+journal: Revise and Resubmit, Science Advances
 abstract: y
 coverage: 
   Kellogg Insight:

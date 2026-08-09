@@ -3,9 +3,10 @@ target: 2025_ads_ex
 order: 101
 authors: <a href="https://allcott.people.stanford.edu//">  Hunt Allcott </a>, <a href="https://www.rubenson.org/"> Matthew Gentzkow</a>, and 30 others; one of three leading authors</a> 
 title: The Effects of Political Advertising on Facebook and Instagram before the 2020 US Election
-link: https://www.nber.org/papers/w33818
+link: https://www.nature.com/articles/s41562-025-02328-w
 journal: Nature Human Behavior
 year: 2026
+ungated: https://www.nber.org/papers/w33818
 abstract: y
 coverage:
   Nature Human Behavior Research Briefing (with Matthew Gentzkow):
