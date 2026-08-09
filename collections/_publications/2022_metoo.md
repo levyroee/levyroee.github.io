@@ -4,7 +4,7 @@ order: 10
 authors: <a href="https://sites.google.com/view/martinmattsson"> Martin Mattsson</a>
 title: "The Effects of Social Movements: Evidence from &#35MeToo"
 link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3496903
-journal: Revise and Resubmit, Review of Economics and Statistics 
+journal: Accepted, Review of Economics and Statistics 
 meta:
 abstract: y
 award: 
