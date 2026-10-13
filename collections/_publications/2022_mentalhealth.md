@@ -9,6 +9,19 @@ meta: 112(11)
 year: 2022
 abstract: y
 award: Econometric Society European Meetings (ESEM) Best Paper Award 2022
+policy:
+  U.S. Surgeon General's Advisory:
+    url: "https://www.hhs.gov/sites/default/files/sg-youth-mental-health-social-media-advisory.pdf"
+    post: (2023)
+  Economic Report of the President:
+    url: "https://www.govinfo.gov/content/pkg/ERP-2024/pdf/ERP-2024.pdf"
+    post: (2024)
+  U.S. Treasury:
+    url: "https://home.treasury.gov/news/featured-stories/how-does-the-well-being-of-young-adults-compare-to-their-parents"
+    post: (2024)
+  UNDP Human Development Report:
+    url: "https://hdr.undp.org/system/files/documents/global-report-document/hdr2025reporten.pdf"
+    post: (2025)
 coverage:  
   VoxEU Brief: 
     url: "https://cepr.org/voxeu/columns/social-media-and-mental-health"  
@@ -51,6 +64,12 @@ coverage:
     url: "https://podcast.adopaminekick.com/1898728/10406894"
   AEA Research highlights:
     url: "https://www.aeaweb.org/research/charts/social-media-mental-health-college"  
+  Scientific American:
+    url: "https://www.scientificamerican.com/article/social-media-can-harm-kids-could-new-regulations-help/"
+  RealClearPolitics:
+    url: "https://www.realclearpolitics.com/articles/2023/07/22/trending_unconstitutional_social_media_restrictions_149519.html"
+  disconnect_d:
+    url: "https://www.disconnectd.com/letters/what-facebook-took-from-us"
   Il Post: 
     url: "https://www.ilpost.it/2023/03/10/smartphone-social-salute-mentale/"
     post: (Italian)
@@ -62,6 +81,9 @@ coverage:
     post: (Spanish)
   Terra:    
     url: "https://www.terra.com.br/byte/estudo-liga-facebook-a-mais-depressao-e-ansiedade-em-jovens-dos-eua,90e4cf366877b92384acb372c2e34cc2k81bddwy.html"
+    post: (Portuguese)
+  Fast Company Brasil:
+    url: "https://fastcompanybrasil.com/coluna/a-internet-faz-mal-aos-adolescentes-provavelmente-sim-mas-nao-so-ela/"
     post: (Portuguese)
   piqd:
     url: "https://www.piqd.de/technologie-gesellschaft/facebooks-start-verursachte-mental-health-probleme-an-us-unis"

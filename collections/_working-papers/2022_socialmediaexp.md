@@ -1,7 +1,7 @@
 ---
-target: 2022_newspref
+target: 2022_socialmediaexp
 order: 4
-authors: <a href="https://www.guyaridor.net/">  Guy Aridor, <a href="https://www.rafaeljjd.com/"> Rafael Jiménez-Durán</a>, and <a href="https://www.songlena.com/">Lena Song</a> 
+authors: <a href="https://www.guyaridor.net/">Guy Aridor</a>, <a href="https://www.rafaeljjd.com/"> Rafael Jiménez-Durán</a>, and <a href="https://www.songlena.com/">Lena Song</a> 
 title: "Experiments on Social Media"
 link: https://cepr.org/publications/dp19861
 ungated: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4893781

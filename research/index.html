@@ -57,6 +57,26 @@ publications: active
 		  	<br>
 		  {% endif %}
 
+		  {% if reference.policy %}
+   			<span style="font-size: 14px; margin-left: 20px; display:inline-block">
+			Cited in policy:
+			{%- for item in reference.policy -%}
+				{% assign postText = "" %}
+				{% if item[1].post %}
+				   {% assign postText = " " | append: item[1].post %}
+			    {% endif %}
+				{% if forloop.last == false %}
+					{% assign postText = postText | append: ',' %}
+				{% endif %}
+				{% if item[1].pre %}
+				   {{item[1].pre}}
+			    {% endif %}
+				<a href={{item[1].url}} target="_blank">{{item[0]}}</a>{{postText}}
+			{% endfor %}
+		   </span>
+		   <br>
+		  {% endif %}
+
 		  {% if reference.coverage %}
    			<span style="font-size: 14px; margin-left: 20px; display:inline-block">
 			Coverage and popular writing: 

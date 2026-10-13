@@ -5,3 +5,5 @@ collections/backup*
 test website.txt
 research/deleted.txt
 vendor/*
+.bundle/
+_notes/
