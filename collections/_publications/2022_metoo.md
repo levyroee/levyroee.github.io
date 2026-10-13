@@ -8,6 +8,10 @@ journal: Accepted, Review of Economics and Statistics
 meta:
 abstract: y
 award: 
+policy:
+  U.S. Supreme Court amicus brief:
+    url: "https://www.supremecourt.gov/DocketPDF/19/19-108/133507/20200219153249647_19-108%20and%2019-184bsacNACDL.pdf"
+    post: (United States v. Briggs, 2020)
 coverage:  
   Vox:
     url: "https://www.vox.com/2019/12/11/21003592/me-too-movement-sexual-assault-crimes-reporting" 
@@ -20,6 +24,8 @@ coverage:
   The Straight Times:
     url: "https://www.straitstimes.com/opinion/metoo-shows-power-of-social-movements"
     post: (Op-Ed)
+  Women In Academia Report:
+    url: "https://wiareport.com/2020/02/yale-university-study-finds-a-major-impact-of-the-metoo-movement-on-sexual-assault-reporting/"
   TheWrap: 
     url: "https://www.thewrap.com/me-too-hashtag-5-year-anniversary-beyond-hollywood-changes/"
   Scripps News:
