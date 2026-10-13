@@ -3,6 +3,7 @@ markdown: kramdown
 collections_dir: collections
 collections:
   - publications
+  - book-chapters
   - working-papers
   - zin-progress
 

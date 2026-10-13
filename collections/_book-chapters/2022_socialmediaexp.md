@@ -3,9 +3,10 @@ target: 2022_socialmediaexp
 order: 4
 authors: <a href="https://www.guyaridor.net/">Guy Aridor</a>, <a href="https://www.rafaeljjd.com/"> Rafael Jiménez-Durán</a>, and <a href="https://www.songlena.com/">Lena Song</a> 
 title: "Experiments on Social Media"
-link: https://cepr.org/publications/dp19861
+link: https://www.e-elgar.com/shop/usd/handbook-of-experimental-methods-in-the-social-sciences-9781035312627.html
 ungated: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4893781
-journal: Forthcoming Chapter for the Handbook of Experimental Methods in the Social Sciences
+journal: Handbook of Experimental Methods in the Social Sciences (ed. Alex Rees-Jones, Edward Elgar)
+year: 2026
 meta: 
 abstract: y 
 coverage:

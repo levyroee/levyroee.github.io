@@ -6,13 +6,16 @@ publications: active
 
 <div class="info">
 
-{% for collection in site.collections %}
-	
-	{% assign myLabel = collection.label %}
-	
+{% assign sections = "publications,book-chapters,working-papers,zin-progress" | split: "," %}
+{% for myLabel in sections %}
+
 	{% assign print-collection = false %}
 	{% if myLabel =="publications" %}
 		<p><h3><b>Publications</b></h3></p>
+		{% assign print-collection = true %}
+	{% endif %}
+	{% if myLabel=="book-chapters" %}
+		<p><h3><b>Book chapters</b></h3></p>
 		{% assign print-collection = true %}
 	{% endif %}
 	{% if myLabel=="zin-progress" %}
@@ -59,7 +62,7 @@ publications: active
 
 		  {% if reference.policy %}
    			<span style="font-size: 14px; margin-left: 20px; display:inline-block">
-			Cited in policy:
+			Policy cites:
 			{%- for item in reference.policy -%}
 				{% assign postText = "" %}
 				{% if item[1].post %}
