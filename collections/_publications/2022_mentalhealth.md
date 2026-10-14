@@ -13,6 +13,9 @@ policy:
   U.S. Surgeon General's Advisory:
     url: "https://www.hhs.gov/sites/default/files/sg-youth-mental-health-social-media-advisory.pdf"
     post: (2023)
+  U.S. Supreme Court amicus brief of 22 states and DC:
+    url: "https://www.supremecourt.gov/DocketPDF/22/22-555/292783/20231207182233928_Nos.%2022-277%20and%2022-555_Amicus%20Brief.pdf"
+    post: (Moody v. NetChoice, 2023)
   Economic Report of the President:
     url: "https://www.govinfo.gov/content/pkg/ERP-2024/pdf/ERP-2024.pdf"
     post: (2024)
@@ -22,6 +25,15 @@ policy:
   UNDP Human Development Report:
     url: "https://hdr.undp.org/system/files/documents/global-report-document/hdr2025reporten.pdf"
     post: (2025)
+  UK Department for Science, Innovation and Technology:
+    url: "https://assets.publishing.service.gov.uk/media/696e0b46bbcea094189e2366/impact-smartphones-social_media-children-study.pdf"
+    post: (2026)
+  World Happiness Report:
+    url: "https://www.worldhappiness.report/ed/2026/social-media-is-harming-adolescents-at-a-scale-large-enough-to-cause-changes-at-the-population-level/"
+    post: (2026)
+  U.S. federal court ruling:
+    url: "https://www.courtlistener.com/docket/65407433/2857/in-re-social-media-adolescent-addictionpersonal-injury-products-liability/"
+    post: (In re Social Media Adolescent Addiction, 2026)
 coverage:  
   VoxEU Brief: 
     url: "https://cepr.org/voxeu/columns/social-media-and-mental-health"  

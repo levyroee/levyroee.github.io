@@ -13,6 +13,9 @@ policy:
   UNDP Human Development Report:
     url: "https://hdr.undp.org/system/files/documents/global-report-document/hdr2025reporten.pdf"
     post: (2025)
+  Danish Competition and Consumer Authority:
+    url: "https://en.kfst.dk/media/egkp201j/20250206-young-consumers-and-social-media.pdf"
+    post: (2025)
 coverage:
   VoxEU: 
     url: "https://cepr.org/voxeu/columns/economics-social-media?utm_source=dlvr.it&utm_medium=twitter"

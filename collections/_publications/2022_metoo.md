@@ -3,8 +3,10 @@ target: 2022_metoo
 order: 10
 authors: <a href="https://sites.google.com/view/martinmattsson"> Martin Mattsson</a>
 title: "The Effects of Social Movements: Evidence from &#35MeToo"
-link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3496903
-journal: Accepted, Review of Economics and Statistics 
+link: https://doi.org/10.1162/rest.a.1830
+ungated: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3496903
+journal: Review of Economics and Statistics
+year: 2026
 meta:
 abstract: y
 award: 
@@ -12,6 +14,12 @@ policy:
   U.S. Supreme Court amicus brief:
     url: "https://www.supremecourt.gov/DocketPDF/19/19-108/133507/20200219153249647_19-108%20and%2019-184bsacNACDL.pdf"
     post: (United States v. Briggs, 2020)
+  Uber US Safety Report:
+    url: "https://www.uber.com/us/en/about/reports/us-safety-report/"
+    post: (2022)
+  U.S. federal court expert declaration:
+    url: "https://www.courtlistener.com/docket/64943083/133/1/new-york-state-rifle-pistol-association-inc-v-james/"
+    post: (NYSRPA v. James, 2026)
 coverage:  
   Vox:
     url: "https://www.vox.com/2019/12/11/21003592/me-too-movement-sexual-assault-crimes-reporting" 
