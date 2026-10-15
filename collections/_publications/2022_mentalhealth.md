@@ -68,6 +68,8 @@ coverage:
     url: "https://www.jpost.com/health-and-wellness/mind-and-spirit/article-717454"
   Emily Oster’s Substack:
     url: "https://www.parentdata.org/p/more-on-facebook-and-mental-health?s=r" 
+  Scott Cunningham’s Substack:
+    url: "https://causalinf.substack.com/p/did-facebook-hurt-our-mental-health"
   Comment is Freed:
     url: "https://samf.substack.com/p/kids-and-social-media-a-mental-health?r=72szy&utm_campaign=post&utm_medium=web"
   Sparrow:
