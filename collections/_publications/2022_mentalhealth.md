@@ -15,7 +15,7 @@ policy:
     post: (2023)
   U.S. Supreme Court amicus brief of 22 states and DC:
     url: "https://www.supremecourt.gov/DocketPDF/22/22-555/292783/20231207182233928_Nos.%2022-277%20and%2022-555_Amicus%20Brief.pdf"
-    post: (Moody v. NetChoice, 2023)
+    post: (2023)
   Economic Report of the President:
     url: "https://www.govinfo.gov/content/pkg/ERP-2024/pdf/ERP-2024.pdf"
     post: (2024)
@@ -33,7 +33,7 @@ policy:
     post: (2026)
   U.S. federal court ruling:
     url: "https://www.courtlistener.com/docket/65407433/2857/in-re-social-media-adolescent-addictionpersonal-injury-products-liability/"
-    post: (In re Social Media Adolescent Addiction, 2026)
+    post: (2026)
 coverage:  
   VoxEU Brief: 
     url: "https://cepr.org/voxeu/columns/social-media-and-mental-health"  

@@ -13,13 +13,13 @@ award:
 policy:
   U.S. Supreme Court amicus brief:
     url: "https://www.supremecourt.gov/DocketPDF/19/19-108/133507/20200219153249647_19-108%20and%2019-184bsacNACDL.pdf"
-    post: (United States v. Briggs, 2020)
+    post: (2020)
   Uber US Safety Report:
     url: "https://www.uber.com/us/en/about/reports/us-safety-report/"
     post: (2022)
   U.S. federal court expert declaration:
     url: "https://www.courtlistener.com/docket/64943083/133/1/new-york-state-rifle-pistol-association-inc-v-james/"
-    post: (NYSRPA v. James, 2026)
+    post: (2026)
 coverage:  
   Vox:
     url: "https://www.vox.com/2019/12/11/21003592/me-too-movement-sexual-assault-crimes-reporting" 
