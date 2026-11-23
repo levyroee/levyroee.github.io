@@ -6,4 +6,5 @@ test website.txt
 research/deleted.txt
 vendor/*
 .bundle/
-_notes/
+notes/
+CLAUDE.local.md

@@ -7,3 +7,15 @@ collections:
   - working-papers
   - zin-progress
 
+# Keep private and build files out of the site. Setting exclude replaces
+# Jekyll's defaults, so they are listed again here.
+exclude:
+  - notes/
+  - CLAUDE.local.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
