@@ -4,7 +4,7 @@ order: 1
 authors: <a href="https://sites.google.com/view/lucabraghieri/home"> Luca Braghieri </a> and  <a href="https://hannahtrachtman.com/">Hannah Trachtman </a>
 title: "Frictions in News Consumption: Evidence from Social Media"
 link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5494670
-journal: 
+journal: Revise and Resubmit, Journal of the European Economic Association
 meta: 
 abstract: y
 coverage:

@@ -1,10 +1,10 @@
 ---
 target: 2022_populism
-order: 3
+order: 102
 authors: <a href="https://www.orendanieli.com/"> Oren Danieli</a>, <a href="https://scholar.harvard.edu/gidron/home"> Noam Gidron </a>, and <a href="https://www.shinnosuke-kikuchi.com/"> Shinnosuke Kikuchi</a>
 title: Decomposing the Rise of the Populist Radical Right
 link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4255937
-journal: Reject and Resubmit, Journal of Political Economy
+journal: Accepted, Journal of Political Economy
 meta:
 abstract: y
 award: 
