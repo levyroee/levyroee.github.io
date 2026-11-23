@@ -14,7 +14,7 @@ policy:
     url: "https://hdr.undp.org/system/files/documents/global-report-document/hdr2025reporten.pdf"
     post: (2025)
   Danish Competition and Consumer Authority:
-    url: "https://en.kfst.dk/media/egkp201j/20250206-young-consumers-and-social-media.pdf"
+    url: "https://www.eng.em.dk/publications/2025/young-consumers-and-social-media"
     post: (2025)
 coverage:
   VoxEU: 

@@ -72,8 +72,6 @@ coverage:
     url: "https://causalinf.substack.com/p/did-facebook-hurt-our-mental-health"
   Comment is Freed:
     url: "https://samf.substack.com/p/kids-and-social-media-a-mental-health?r=72szy&utm_campaign=post&utm_medium=web"
-  Sparrow:
-    url: "https://www.sparrow.science/facebooks-historic-university-rollout-caused-a-rise-in-depression/"
   A Dopamine Kick Podcast:
     url: "https://podcast.adopaminekick.com/1898728/10406894"
   AEA Research highlights:

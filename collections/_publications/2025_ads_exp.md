@@ -13,7 +13,7 @@ coverage:
     url: "https://www.nature.com/articles/s41562-025-02329-9#Sec4"
   Cato research brief:
     url: "https://www.cato.org/research-briefs-economic-policy/did-political-advertising-facebook-instagram-affect-2020-us"
-  Science Magazine: 
+  ScienMag:
     url: "https://scienmag.com/impact-of-2020-election-ads-on-facebook-instagram/"
   Frankfurter Allgemeine Zeitung (in German): 
     url: "https://www.faz.net/aktuell/wissen/computer-mathematik/wahlwerbung-auf-facebook-und-instagram-studie-sieht-kaum-einfluss-110846814.html"  
