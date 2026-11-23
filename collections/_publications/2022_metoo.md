@@ -32,6 +32,8 @@ coverage:
   The Straight Times:
     url: "https://www.straitstimes.com/opinion/metoo-shows-power-of-social-movements"
     post: (Op-Ed)
+  Yale News:
+    url: "https://news.yale.edu/2020/01/27/metoo-makes-difference-sex-crime-reporting-study-shows"
   Women In Academia Report:
     url: "https://wiareport.com/2020/02/yale-university-study-finds-a-major-impact-of-the-metoo-movement-on-sexual-assault-reporting/"
   TheWrap: 
