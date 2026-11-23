@@ -2,7 +2,7 @@
 target: 2022_envsalience
 order: 0
 authors: Chenxi Jiang, <a href="https://sites.google.com/view/lauletta"> Maximiliano Lauletta</a>, <a href="https://joseph-s-shapiro.com/"> Joseph S. Shapiro</a>, and <a href="https://www.dmitrytaubinsky.com/"> Dmitry Taubinsky </a>
-title: Understanding Support for Inefficient Environmental Policy Instruments
+title: Understanding Support for Cost-Ineffective Environmental Policy Instruments
 link: https://www.nber.org/papers/w35073
 journal: 
 meta: 
